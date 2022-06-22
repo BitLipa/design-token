@@ -1,2 +1,8 @@
 # ignore ALL .log files
 *.log
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
