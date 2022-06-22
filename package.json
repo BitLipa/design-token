@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "split": "node sets-transformer.js",
+    "build": "yarn split && node sd.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/BitLipa/design-token/issues"
   },
-  "homepage": "https://github.com/BitLipa/design-token#readme"
+  "homepage": "https://github.com/BitLipa/design-token#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.23"
+  }
 }

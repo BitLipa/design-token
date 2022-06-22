@@ -1,0 +1,35 @@
+{
+  "avatar": {
+    "xs": {
+      "size": {
+        "value": "{size.element.xs}",
+        "type": "sizing",
+        "rawValue": "{size.element.xs}"
+      }
+    },
+    "bg": {
+      "value": "{colors.bg.surface}",
+      "type": "colors",
+      "rawValue": "{colors.bg.surface}"
+    },
+    "md": {
+      "size": {
+        "value": "{size.element.lg}",
+        "type": "sizing",
+        "rawValue": "{size.element.lg}"
+      }
+    },
+    "shape": {
+      "circle": {
+        "value": "{borderRadii.full}",
+        "type": "borderRadii",
+        "rawValue": "{borderRadii.full}"
+      },
+      "rounded": {
+        "value": "{element.borderRadii.md}",
+        "type": "borderRadii",
+        "rawValue": "{element.borderRadii.md}"
+      }
+    }
+  }
+}
