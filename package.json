@@ -1,0 +1,23 @@
+{
+  "name": "design-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitLipa/design-token.git"
+  },
+  "keywords": [
+    "Design",
+    "token"
+  ],
+  "author": "Bitlipa_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitLipa/design-token/issues"
+  },
+  "homepage": "https://github.com/BitLipa/design-token#readme"
+}
