@@ -1,6 +1,6 @@
 export default {
-  currencyIcon: {
-    xsSize: 16,
-    mdSize: 32,
-  },
-};
+  "currencyIcon": {
+    "xsSize": 16,
+    "mdSize": 32
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "icon": {
+    "xs": {
+      "size": {
+        "value": "{size.element.3xs}",
+        "type": "sizing"
+      },
+      "stroke": {
+        "value": "{stroke.sm}",
+        "type": "borderWidth"
+      }
+    },
+    "md": {
+      "size": {
+        "value": "{size.element.xs}",
+        "type": "sizing"
+      },
+      "stroke": {
+        "value": "{stroke.md}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

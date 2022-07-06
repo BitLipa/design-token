@@ -3,9 +3,9 @@ const filterDictionary = require("style-dictionary/lib/filterProperties");
 
 const components = ["icon", "avatar", "currencyIcon"];
 
-function formatKey(word, search) {
-  let regEx = new RegExp(search, "i");
-  let name = word.replace(regEx, "");
+function formatKey(word, searchValue, newValue = "") {
+  let regEx = new RegExp(searchValue, "i");
+  let name = word.replace(regEx, newValue);
   let key = name.charAt(0).toLowerCase() + name.slice(1);
   return key;
 }

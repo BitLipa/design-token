@@ -1,0 +1,16 @@
+{
+  "currencyIcon": {
+    "xs": {
+      "size": {
+        "value": "{size.element.3xs}",
+        "type": "sizing"
+      }
+    },
+    "md": {
+      "size": {
+        "value": "{size.element.sm}",
+        "type": "sizing"
+      }
+    }
+  }
+}

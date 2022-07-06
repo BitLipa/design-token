@@ -1,0 +1,32 @@
+{
+  "avatar": {
+    "xs": {
+      "size": {
+        "value": "{size.element.xs}",
+        "type": "sizing"
+      }
+    },
+    "fg": {
+      "subtle": {
+        "value": "{colors.neutral.90}",
+        "type": "colors"
+      }
+    },
+    "md": {
+      "size": {
+        "value": "{size.element.lg}",
+        "type": "sizing"
+      }
+    },
+    "shape": {
+      "circle": {
+        "value": "{borderRadii.full}",
+        "type": "borderRadii"
+      },
+      "rounded": {
+        "value": "{element.borderRadii.md}",
+        "type": "borderRadii"
+      }
+    }
+  }
+}

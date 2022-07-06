@@ -1,0 +1,75 @@
+{
+  "colors": {
+    "fg": {
+      "subtle": {
+        "value": "{colors.neutral.90}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.neutral.80}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "quite": {
+        "value": "{colors.neutral.70}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "moderate": {
+        "value": "{colors.neutral.60}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "strong": {
+        "value": "{colors.neutral.40}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "onSolid": {
+        "value": "{colors.neutral.120}",
+        "type": "colors",
+        "failedToResolve": true
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "{colors.neutral.140}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "subtle": {
+        "value": "{colors.neutral.120}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "muted": {
+        "value": "{colors.neutral.80}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "solid": {
+        "value": "{colors.neutral.20}",
+        "type": "colors",
+        "failedToResolve": true
+      }
+    },
+    "line": {
+      "ghost": {
+        "value": "{colors.neutral.140}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "subtle": {
+        "value": "{colors.neutral.120}",
+        "type": "colors",
+        "failedToResolve": true
+      },
+      "solid": {
+        "value": "{colors.neutral.100}",
+        "type": "colors",
+        "failedToResolve": true
+      }
+    }
+  }
+}
