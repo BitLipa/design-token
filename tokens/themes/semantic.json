@@ -1,157 +1,136 @@
 {
-  "borderRadii": {
-    "sm": {
-      "value": "{borderRadii.2}",
-      "type": "borderRadii",
-      "failedToResolve": true
+  "colors": {
+    "fg": {
+      "subtle": {
+        "value": "#D6D3D1",
+        "type": "colors"
+      },
+      "muted": {
+        "value": "#97928E",
+        "type": "colors"
+      },
+      "quite": {
+        "value": "#77716D",
+        "type": "colors"
+      },
+      "moderate": {
+        "value": "#56534F",
+        "type": "colors"
+      },
+      "strong": {
+        "value": "#312E2C",
+        "type": "colors"
+      },
+      "onSolid": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      }
     },
-    "md": {
-      "value": "{borderRadii.3}",
-      "type": "borderRadii",
-      "failedToResolve": true
+    "bg": {
+      "surface": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      },
+      "subtle": {
+        "value": "#F2F2F1",
+        "type": "colors"
+      },
+      "muted": {
+        "value": "#E7E5E4",
+        "type": "colors"
+      },
+      "solid": {
+        "value": "#1B1917",
+        "type": "colors"
+      }
+    },
+    "line": {
+      "ghost": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      },
+      "subtle": {
+        "value": "#F2F2F1",
+        "type": "colors"
+      },
+      "solid": {
+        "value": "#D6D3D1",
+        "type": "colors"
+      }
     }
   },
-  "none": {
-    "value": "{borderRadii.0}",
-    "type": "borderRadii",
-    "failedToResolve": true
+  "size": {
+    "element": {
+      "3xs": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "2xs": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "xs": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "sm": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "md": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "lg": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "xl": {
+        "value": 56,
+        "type": "sizing"
+      }
+    }
   },
-  "xs": {
-    "value": "{borderRadii.half}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "sm": {
-    "value": "{borderRadii.1}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "md": {
-    "value": "{borderRadii.2}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "lg": {
-    "value": "{borderRadii.3}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "xl": {
-    "value": "{borderRadii.4}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "2xl": {
-    "value": "{borderRadii.6}",
-    "type": "borderRadii",
-    "failedToResolve": true
-  },
-  "element": {
-    "3xs": {
-      "value": "{size.4}",
-      "type": "sizing",
-      "failedToResolve": true
-    },
-    "2xs": {
-      "value": "{size.5}",
-      "type": "sizing",
-      "failedToResolve": true
+  "borderRadii": {
+    "none": {
+      "value": 0,
+      "type": "borderRadii"
     },
     "xs": {
-      "value": "{size.6}",
-      "type": "sizing",
-      "failedToResolve": true
+      "value": 2,
+      "type": "borderRadii"
     },
     "sm": {
-      "value": "{size.8}",
-      "type": "sizing",
-      "failedToResolve": true
+      "value": 4,
+      "type": "borderRadii"
     },
     "md": {
-      "value": "{size.10}",
-      "type": "sizing",
-      "failedToResolve": true
+      "value": 8,
+      "type": "borderRadii"
     },
     "lg": {
-      "value": "{size.12}",
-      "type": "sizing",
-      "failedToResolve": true
+      "value": 12,
+      "type": "borderRadii"
     },
     "xl": {
-      "value": "{size.14}",
-      "type": "sizing",
-      "failedToResolve": true
+      "value": 16,
+      "type": "borderRadii"
+    },
+    "2xl": {
+      "value": 24,
+      "type": "borderRadii"
     }
   },
-  "fg": {
-    "subtle": {
-      "value": "{colors.neutral.60}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "muted": {
-      "value": "{colors.neutral.80}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "quite": {
-      "value": "{colors.neutral.90}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "moderate": {
-      "value": "{colors.neutral.100}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "strong": {
-      "value": "{colors.neutral.120}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "onSolid": {
-      "value": "{colors.neutral.20}",
-      "type": "colors",
-      "failedToResolve": true
-    }
-  },
-  "bg": {
-    "surface": {
-      "value": "{colors.neutral.20}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "subtle": {
-      "value": "{colors.neutral.40}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "muted": {
-      "value": "{colors.neutral.50}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "solid": {
-      "value": "{colors.neutral.130}",
-      "type": "colors",
-      "failedToResolve": true
-    }
-  },
-  "line": {
-    "ghost": {
-      "value": "{colors.bg.surface}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "subtle": {
-      "value": "{colors.neutral.40}",
-      "type": "colors",
-      "failedToResolve": true
-    },
-    "solid": {
-      "value": "{colors.neutral.60}",
-      "type": "colors",
-      "failedToResolve": true
+  "element": {
+    "borderRadii": {
+      "sm": {
+        "value": 8,
+        "type": "borderRadii"
+      },
+      "md": {
+        "value": 12,
+        "type": "borderRadii"
+      }
     }
   }
 }

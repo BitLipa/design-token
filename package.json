@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "split":"node split-sets.js && node sets-trasformer.js",
+    "split":"node sets-trasformer.js",
     "build": "token-transformer figma-tokens.json tokens/input.json --preserveRawValue=true --resolveReferences=false && style-dictionary build --config ./sd.config.js"
   },
   "repository": {

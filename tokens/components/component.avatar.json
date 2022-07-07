@@ -1,40 +1,37 @@
 {
-  "xs": {
-    "size": {
-      "value": "{size.element.xs}",
-      "type": "sizing",
-      "rawValue": "{size.element.xs}",
-      "failedToResolve": true
-    }
-  },
-  "fg": {
-    "subtle": {
-      "value": "{colors.neutral.90}",
-      "type": "colors",
-      "rawValue": "{colors.neutral.90}",
-      "failedToResolve": true
-    }
-  },
-  "md": {
-    "size": {
-      "value": "{size.element.lg}",
-      "type": "sizing",
-      "rawValue": "{size.element.lg}",
-      "failedToResolve": true
-    }
-  },
-  "shape": {
-    "circle": {
-      "value": "{borderRadii.full}",
-      "type": "borderRadii",
-      "rawValue": "{borderRadii.full}",
-      "failedToResolve": true
+  "avatar": {
+    "xs": {
+      "size": {
+        "value": "{size.element.xs}",
+        "type": "sizing",
+        "rawValue": "{size.element.xs}"
+      }
     },
-    "rounded": {
-      "value": "{element.borderRadii.md}",
-      "type": "borderRadii",
-      "rawValue": "{element.borderRadii.md}",
-      "failedToResolve": true
+    "fg": {
+      "subtle": {
+        "value": "{colors.neutral.90}",
+        "type": "colors",
+        "rawValue": "{colors.neutral.90}"
+      }
+    },
+    "md": {
+      "size": {
+        "value": "{size.element.lg}",
+        "type": "sizing",
+        "rawValue": "{size.element.lg}"
+      }
+    },
+    "shape": {
+      "circle": {
+        "value": "{borderRadii.full}",
+        "type": "borderRadii",
+        "rawValue": "{borderRadii.full}"
+      },
+      "rounded": {
+        "value": "{element.borderRadii.md}",
+        "type": "borderRadii",
+        "rawValue": "{element.borderRadii.md}"
+      }
     }
   }
 }
