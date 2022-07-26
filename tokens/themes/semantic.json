@@ -1,0 +1,136 @@
+{
+  "colors": {
+    "fg": {
+      "subtle": {
+        "value": "#D6D3D1",
+        "type": "colors"
+      },
+      "muted": {
+        "value": "#97928E",
+        "type": "colors"
+      },
+      "quite": {
+        "value": "#77716D",
+        "type": "colors"
+      },
+      "moderate": {
+        "value": "#56534F",
+        "type": "colors"
+      },
+      "strong": {
+        "value": "#312E2C",
+        "type": "colors"
+      },
+      "onSolid": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      }
+    },
+    "bg": {
+      "surface": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      },
+      "subtle": {
+        "value": "#F2F2F1",
+        "type": "colors"
+      },
+      "muted": {
+        "value": "#E7E5E4",
+        "type": "colors"
+      },
+      "solid": {
+        "value": "#1B1917",
+        "type": "colors"
+      }
+    },
+    "line": {
+      "ghost": {
+        "value": "#FAFAF9",
+        "type": "colors"
+      },
+      "subtle": {
+        "value": "#F2F2F1",
+        "type": "colors"
+      },
+      "solid": {
+        "value": "#D6D3D1",
+        "type": "colors"
+      }
+    }
+  },
+  "size": {
+    "element": {
+      "3xs": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "2xs": {
+        "value": 20,
+        "type": "sizing"
+      },
+      "xs": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "sm": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "md": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "lg": {
+        "value": 48,
+        "type": "sizing"
+      },
+      "xl": {
+        "value": 56,
+        "type": "sizing"
+      }
+    }
+  },
+  "borderRadii": {
+    "none": {
+      "value": 0,
+      "type": "borderRadii"
+    },
+    "xs": {
+      "value": 2,
+      "type": "borderRadii"
+    },
+    "sm": {
+      "value": 4,
+      "type": "borderRadii"
+    },
+    "md": {
+      "value": 8,
+      "type": "borderRadii"
+    },
+    "lg": {
+      "value": 12,
+      "type": "borderRadii"
+    },
+    "xl": {
+      "value": 16,
+      "type": "borderRadii"
+    },
+    "2xl": {
+      "value": 24,
+      "type": "borderRadii"
+    }
+  },
+  "element": {
+    "borderRadii": {
+      "sm": {
+        "value": 8,
+        "type": "borderRadii"
+      },
+      "md": {
+        "value": 12,
+        "type": "borderRadii"
+      }
+    }
+  }
+}
