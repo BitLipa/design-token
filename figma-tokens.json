@@ -345,6 +345,40 @@
         "value": "9999",
         "type": "borderRadii"
       }
+    },
+    "borderRadius": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "1": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "2": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "3": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "4": {
+        "value": "16",
+        "type": "borderRadius"
+      },
+      "6": {
+        "value": "24",
+        "type": "borderRadius"
+      },
+      "full": {
+        "value": "9999",
+        "type": "borderRadius"
+      },
+      "half": {
+        "value": "2",
+        "type": "borderRadius"
+      }
     }
   },
   "semantic": {
@@ -480,6 +514,44 @@
           "value": "{borderRadii.3}",
           "type": "borderRadii"
         }
+      },
+      "sm": {
+        "value": "{borderRadius.md}",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{borderRadius.lg}",
+        "type": "borderRadius"
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "{borderRadius.0}",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "{borderRadius.half}",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "{borderRadius.1}",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{borderRadius.2}",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "{borderRadius.3}",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "{borderRadius.4}",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "{borderRadius.6}",
+        "type": "borderRadius"
       }
     }
   },
@@ -615,6 +687,5 @@
       }
     }
   },
-  "component.chip": {},
   "$themes": []
 }
