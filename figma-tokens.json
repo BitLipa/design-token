@@ -614,5 +614,7 @@
         }
       }
     }
-  }
+  },
+  "component,chip": {},
+  "$themes": []
 }
