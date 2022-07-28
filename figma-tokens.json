@@ -553,6 +553,20 @@
         "value": "{borderRadius.6}",
         "type": "borderRadius"
       }
+    },
+    "space": {
+      "sm": {
+        "value": "{spacing.2}",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "{spacing.4}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{spacing.5}",
+        "type": "spacing"
+      }
     }
   },
   "semantic.theme.dark": {
