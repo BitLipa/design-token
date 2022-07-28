@@ -615,6 +615,6 @@
       }
     }
   },
-  "component,chip": {},
+  "component.chip": {},
   "$themes": []
 }
