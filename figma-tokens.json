@@ -567,6 +567,32 @@
         "value": "{spacing.5}",
         "type": "spacing"
       }
+    },
+    "fontWeight": {
+      "2xs": {
+        "value": "{fontWeight.light}",
+        "type": "fontWeights"
+      },
+      "xs": {
+        "value": "{fontWeight.regular}",
+        "type": "fontWeights"
+      },
+      "sm": {
+        "value": "{fontWeight.medium}",
+        "type": "fontWeights"
+      },
+      "lg": {
+        "value": "{fontWeight.semibold}",
+        "type": "fontWeights"
+      },
+      "xl": {
+        "value": "{fontWeight.bold}",
+        "type": "fontWeights"
+      },
+      "2xl": {
+        "value": "{fontWeight.extrabold}",
+        "type": "fontWeights"
+      }
     }
   },
   "semantic.theme.dark": {
@@ -698,6 +724,63 @@
           "value": "{element.borderRadii.md}",
           "type": "borderRadii"
         }
+      }
+    }
+  },
+  "component.button": {
+    "paddingX": {
+      "md": {
+        "value": "{space.md}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{space.lg}",
+        "type": "spacing"
+      }
+    },
+    "paddingRight": {
+      "sm": {
+        "value": "{space.sm}",
+        "type": "spacing",
+        "description": "with  prefix/suffix"
+      },
+      "md": {
+        "value": "{space.md}",
+        "type": "spacing",
+        "description": "used with prefix/suffix"
+      }
+    },
+    "PaddingLeft": {
+      "sm": {
+        "value": "{space.sm}",
+        "type": "spacing",
+        "description": "with  prefix/suffix"
+      },
+      "md": {
+        "value": "{space.md}",
+        "type": "spacing",
+        "description": "with  prefix/suffix"
+      }
+    },
+    "height": {
+      "md": {
+        "value": "{size.element.md}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.element.md}",
+        "type": "sizing"
+      }
+    },
+    "gap": {
+      "md": {
+        "value": "{space.md}",
+        "type": "spacing",
+        "description": "with prefix /suffix"
+      },
+      "lg": {
+        "value": "{space.lg}",
+        "type": "spacing"
       }
     }
   },
