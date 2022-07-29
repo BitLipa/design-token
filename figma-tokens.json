@@ -543,6 +543,10 @@
         "onSolid": {
           "value": "{colors.neutral.120}",
           "type": "colors"
+        },
+        "transparent": {
+          "value": "{colors.neutral.0}",
+          "type": "colors"
         }
       },
       "bg": {
@@ -650,7 +654,7 @@
     }
   },
   "component.button": {
-    "paddingRight": {
+    "padding": {
       "sm": {
         "value": "{spacing.2}",
         "type": "spacing",
@@ -666,37 +670,21 @@
         "type": "spacing"
       }
     },
-    "PaddingLeft": {
-      "sm": {
-        "value": "{spacing.2}",
-        "type": "spacing",
-        "description": "with  prefix/suffix"
-      },
-      "md": {
-        "value": "{spacing.4}",
-        "type": "spacing",
-        "description": "with  prefix/suffix"
-      },
-      "lg": {
-        "value": "{spacing.5}",
-        "type": "spacing"
-      }
-    },
     "height": {
       "md": {
-        "value": "{size.element.md}",
+        "value": "{size.10}",
         "type": "sizing"
       },
       "lg": {
-        "value": "{size.element.md}",
+        "value": "{size.12}",
         "type": "sizing"
       }
     },
     "gap": {
       "md": {
-        "value": "{paddingRight.md}",
         "type": "spacing",
-        "description": "with prefix /suffix"
+        "description": "with prefix /suffix",
+        "value": "{padding.md}"
       },
       "lg": {
         "value": "{spacing.5}",
@@ -727,7 +715,7 @@
         "type": "color"
       }
     },
-    "color": {
+    "textColor": {
       "solid": {
         "value": "{colors.bg.subtle}",
         "type": "color"
@@ -747,12 +735,22 @@
     },
     "borderRadius": {
       "md": {
-        "value": "{borderRadii.sm}",
+        "value": "{borderRadii.2}",
         "type": "borderRadius"
       },
       "lg": {
-        "value": "{borderRadii.md}",
+        "value": "{borderRadii.3}",
         "type": "borderRadius"
+      }
+    },
+    "itemSpacing": {
+      "md": {
+        "value": "{spacing.1}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{spacing.2}",
+        "type": "spacing"
       }
     }
   },
