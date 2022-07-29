@@ -349,6 +349,36 @@
         "value": "9999",
         "type": "borderRadii"
       }
+    },
+    "fontSize": {
+      "xs": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "base": {
+        "value": "16px",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "18px",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "20px",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "28px",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "44px",
+        "type": "fontSizes"
+      }
     }
   },
   "semantic": {
