@@ -4,7 +4,7 @@
       "neutral": {
         "0": {
           "value": "transparent",
-          "type": "color"
+          "type": "colors"
         },
         "10": {
           "value": "#ffffff",
@@ -65,10 +65,6 @@
         "150": {
           "value": "#000000",
           "type": "colors"
-        },
-        "": {
-          "value": "rgba(255, 255, 255, 0)",
-          "type": "color"
         }
       }
     },
@@ -381,6 +377,10 @@
         "onSolid": {
           "value": "{colors.neutral.20}",
           "type": "colors"
+        },
+        "transparent": {
+          "value": "{colors.neutral.0}",
+          "type": "colors"
         }
       },
       "bg": {
@@ -650,38 +650,36 @@
     }
   },
   "component.button": {
-    "paddingX": {
-      "md": {
-        "value": "{space.md}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{space.lg}",
-        "type": "spacing"
-      }
-    },
     "paddingRight": {
       "sm": {
-        "value": "{space.sm}",
+        "value": "{spacing.2}",
         "type": "spacing",
         "description": "with  prefix/suffix"
       },
       "md": {
-        "value": "{space.md}",
+        "value": "{spacing.4}",
         "type": "spacing",
         "description": "used with prefix/suffix"
+      },
+      "lg": {
+        "value": "{spacing.5}",
+        "type": "spacing"
       }
     },
     "PaddingLeft": {
       "sm": {
-        "value": "{space.sm}",
+        "value": "{spacing.2}",
         "type": "spacing",
         "description": "with  prefix/suffix"
       },
       "md": {
-        "value": "{space.md}",
+        "value": "{spacing.4}",
         "type": "spacing",
         "description": "with  prefix/suffix"
+      },
+      "lg": {
+        "value": "{spacing.5}",
+        "type": "spacing"
       }
     },
     "height": {
@@ -696,55 +694,65 @@
     },
     "gap": {
       "md": {
-        "value": "{space.md}",
+        "value": "{paddingRight.md}",
         "type": "spacing",
         "description": "with prefix /suffix"
       },
       "lg": {
-        "value": "{space.lg}",
+        "value": "{spacing.5}",
         "type": "spacing"
       }
     },
     "background": {
       "solid": {
-        "value": "{colors.neutral.bg.solid}",
+        "value": "{colors.bg.solid}",
         "type": "color"
       },
       "soft": {
-        "value": "{color.neutral.fg.moderate}",
+        "value": "{colors.bg.subtle}",
         "type": "color"
       },
       "ghost": {
-        "value": "{color.neutral.fg.onSolid}",
+        "value": "{colors.fg.subtle}",
         "type": "color"
       },
       "transparent": {
-        "value": "rgba(0,0,0,0)",
+        "value": "{colors.fg.transparent}",
         "type": "color"
       }
     },
     "border": {
       "line": {
-        "value": "{color.neutral.line.solid}",
+        "value": "{colors.line.solid}",
         "type": "color"
       }
     },
     "color": {
       "solid": {
-        "value": "{colors.neutral.bg.subtle}",
+        "value": "{colors.bg.subtle}",
         "type": "color"
       },
       "ghost": {
-        "value": "{background.soft}",
+        "value": "{colors.fg.moderate}",
         "type": "color"
       },
       "soft": {
-        "value": "{background.soft}",
+        "value": "{colors.fg.moderate}",
         "type": "color"
       },
       "transparent": {
-        "value": "{background.soft}",
+        "value": "{colors.fg.moderate}",
         "type": "color"
+      }
+    },
+    "borderRadius": {
+      "md": {
+        "value": "{borderRadii.sm}",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "{borderRadii.md}",
+        "type": "borderRadius"
       }
     }
   },
