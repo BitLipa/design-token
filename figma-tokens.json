@@ -2,6 +2,10 @@
   "core": {
     "colors": {
       "neutral": {
+        "0": {
+          "value": "transparent",
+          "type": "color"
+        },
         "10": {
           "value": "#ffffff",
           "type": "colors"
@@ -61,6 +65,10 @@
         "150": {
           "value": "#000000",
           "type": "colors"
+        },
+        "": {
+          "value": "rgba(255, 255, 255, 0)",
+          "type": "color"
         }
       }
     },
@@ -781,6 +789,48 @@
       "lg": {
         "value": "{space.lg}",
         "type": "spacing"
+      }
+    },
+    "background": {
+      "solid": {
+        "value": "{colors.neutral.bg.solid}",
+        "type": "color"
+      },
+      "soft": {
+        "value": "{color.neutral.fg.moderate}",
+        "type": "color"
+      },
+      "ghost": {
+        "value": "{color.neutral.fg.onSolid}",
+        "type": "color"
+      },
+      "transparent": {
+        "value": "rgba(0,0,0,0)",
+        "type": "color"
+      }
+    },
+    "border": {
+      "line": {
+        "value": "{color.neutral.line.solid}",
+        "type": "color"
+      }
+    },
+    "color": {
+      "solid": {
+        "value": "{colors.neutral.bg.subtle}",
+        "type": "color"
+      },
+      "ghost": {
+        "value": "{background.soft}",
+        "type": "color"
+      },
+      "soft": {
+        "value": "{background.soft}",
+        "type": "color"
+      },
+      "transparent": {
+        "value": "{background.soft}",
+        "type": "color"
       }
     }
   },
