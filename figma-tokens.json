@@ -682,6 +682,26 @@
         "value": "{spacing.2}",
         "type": "spacing"
       }
+    },
+    "fontFamilies": {
+      "value": "{fontFamily.sans}",
+      "type": "fontFamilies"
+    },
+    "fontWeight": {
+      "lg": {
+        "value": "{fontWeight.semibold}",
+        "type": "fontWeights"
+      }
+    },
+    "fontSizes": {
+      "base": {
+        "value": "{fontSize.base}",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "{fontSize.sm}",
+        "type": "fontSizes"
+      }
     }
   },
   "$themes": []
