@@ -517,7 +517,7 @@
     "icon": {
       "xs": {
         "size": {
-          "value": "{size.element.3xs}",
+          "value": "{size.4}",
           "type": "sizing"
         },
         "stroke": {
@@ -527,7 +527,7 @@
       },
       "md": {
         "size": {
-          "value": "{size.element.xs}",
+          "value": "{size.6}",
           "type": "sizing"
         },
         "stroke": {
@@ -541,13 +541,13 @@
     "currencyIcon": {
       "xs": {
         "size": {
-          "value": "{size.element.3xs}",
+          "value": "{size.4}",
           "type": "sizing"
         }
       },
       "md": {
         "size": {
-          "value": "{size.element.sm}",
+          "value": "{size.6}",
           "type": "sizing"
         }
       }
@@ -557,7 +557,7 @@
     "avatar": {
       "xs": {
         "size": {
-          "value": "{size.element.xs}",
+          "value": "{size.6}",
           "type": "sizing"
         }
       },
@@ -567,18 +567,18 @@
       },
       "md": {
         "size": {
-          "value": "{size.element.lg}",
+          "value": "{size.12}",
           "type": "sizing"
         }
       },
       "shape": {
         "circle": {
           "value": "{borderRadii.full}",
-          "type": "borderRadii"
+          "type": "borderRadius"
         },
         "rounded": {
-          "value": "{element.borderRadii.md}",
-          "type": "borderRadii"
+          "value": "{borderRadii.3}",
+          "type": "borderRadius"
         }
       }
     }
