@@ -386,63 +386,63 @@
       "fg": {
         "subtle": {
           "value": "{colors.neutral.60}",
-          "type": "colors"
+          "type": "color"
         },
         "muted": {
           "value": "{colors.neutral.80}",
-          "type": "colors"
+          "type": "color"
         },
         "quite": {
           "value": "{colors.neutral.90}",
-          "type": "colors"
+          "type": "color"
         },
         "moderate": {
           "value": "{colors.neutral.100}",
-          "type": "colors"
+          "type": "color"
         },
         "strong": {
           "value": "{colors.neutral.120}",
-          "type": "colors"
+          "type": "color"
         },
         "onSolid": {
           "value": "{colors.neutral.20}",
-          "type": "colors"
+          "type": "color"
         },
         "transparent": {
           "value": "{colors.neutral.0}",
-          "type": "colors"
+          "type": "color"
         }
       },
       "bg": {
         "surface": {
           "value": "{colors.neutral.20}",
-          "type": "colors"
+          "type": "color"
         },
         "subtle": {
           "value": "{colors.neutral.40}",
-          "type": "colors"
+          "type": "color"
         },
         "muted": {
           "value": "{colors.neutral.50}",
-          "type": "colors"
+          "type": "color"
         },
         "solid": {
           "value": "{colors.neutral.130}",
-          "type": "colors"
+          "type": "color"
         }
       },
       "line": {
         "ghost": {
           "value": "{colors.bg.surface}",
-          "type": "colors"
+          "type": "color"
         },
         "subtle": {
           "value": "{colors.neutral.40}",
-          "type": "colors"
+          "type": "color"
         },
         "solid": {
           "value": "{colors.neutral.60}",
-          "type": "colors"
+          "type": "color"
         }
       }
     }
@@ -452,19 +452,19 @@
       "fg": {
         "subtle": {
           "value": "{colors.neutral.90}",
-          "type": "colors"
+          "type": "color"
         },
         "muted": {
           "value": "{colors.neutral.80}",
-          "type": "colors"
+          "type": "color"
         },
         "quite": {
           "value": "{colors.neutral.70}",
-          "type": "colors"
+          "type": "color"
         },
         "moderate": {
           "value": "{colors.neutral.60}",
-          "type": "colors"
+          "type": "color"
         },
         "strong": {
           "value": "{colors.neutral.40}",
@@ -476,39 +476,39 @@
         },
         "transparent": {
           "value": "{colors.neutral.0}",
-          "type": "colors"
+          "type": "color"
         }
       },
       "bg": {
         "surface": {
           "value": "{colors.neutral.140}",
-          "type": "colors"
+          "type": "color"
         },
         "subtle": {
           "value": "{colors.neutral.120}",
-          "type": "colors"
+          "type": "color"
         },
         "muted": {
           "value": "{colors.neutral.80}",
-          "type": "colors"
+          "type": "color"
         },
         "solid": {
           "value": "{colors.neutral.20}",
-          "type": "colors"
+          "type": "color"
         }
       },
       "line": {
         "ghost": {
           "value": "{colors.bg.surface}",
-          "type": "colors"
+          "type": "color"
         },
         "subtle": {
           "value": "{colors.neutral.120}",
-          "type": "colors"
+          "type": "color"
         },
         "solid": {
           "value": "{colors.neutral.100}",
-          "type": "colors"
+          "type": "color"
         }
       }
     }
@@ -614,7 +614,7 @@
       "md": {
         "type": "spacing",
         "description": "with prefix /suffix",
-        "value": "{padding.md}"
+        "value": "{spacing.4}"
       },
       "lg": {
         "value": "{spacing.5}",
