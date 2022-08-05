@@ -352,31 +352,31 @@
     },
     "fontSize": {
       "xs": {
-        "value": "12px",
+        "value": "12",
         "type": "fontSizes"
       },
       "sm": {
-        "value": "14px",
+        "value": "14",
         "type": "fontSizes"
       },
       "base": {
-        "value": "16px",
+        "value": "16",
         "type": "fontSizes"
       },
       "md": {
-        "value": "18px",
+        "value": "18",
         "type": "fontSizes"
       },
       "lg": {
-        "value": "20px",
+        "value": "20",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "28px",
+        "value": "28",
         "type": "fontSizes"
       },
       "2xl": {
-        "value": "44px",
+        "value": "44",
         "type": "fontSizes"
       }
     }
@@ -468,11 +468,11 @@
         },
         "strong": {
           "value": "{colors.neutral.40}",
-          "type": "colors"
+          "type": "color"
         },
         "onSolid": {
           "value": "{colors.neutral.120}",
-          "type": "colors"
+          "type": "color"
         },
         "transparent": {
           "value": "{colors.neutral.0}",
@@ -560,10 +560,6 @@
           "value": "{size.6}",
           "type": "sizing"
         }
-      },
-      "bg": {
-        "value": "{colors.bg.surface}",
-        "type": "colors"
       },
       "md": {
         "size": {
