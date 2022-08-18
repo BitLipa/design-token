@@ -702,5 +702,20 @@
       }
     }
   },
-  "$themes": []
+  "component.list": {},
+  "component.chip": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "semantic",
+      "semantic.theme.dark",
+      "component.icon",
+      "component.currencyIcon",
+      "component.avatar",
+      "component.button",
+      "component.list",
+      "component.chip"
+    ]
+  }
 }
