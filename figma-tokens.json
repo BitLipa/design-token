@@ -702,7 +702,99 @@
       }
     }
   },
-  "component.list": {},
+  "component.list": {
+    "list": {
+      "padding": {
+        "sm": {
+          "value": "{spacing.2}",
+          "type": "spacing",
+          "description": "with  prefix/suffix"
+        },
+        "md": {
+          "value": "{spacing.4}",
+          "type": "spacing",
+          "description": "used with prefix/suffix"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "md": {
+          "type": "spacing",
+          "description": "with prefix /suffix",
+          "value": "{spacing.4}"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "textColor": {
+        "solid": {
+          "value": "{colors.bg.subtle}",
+          "type": "color"
+        },
+        "ghost": {
+          "value": "{colors.fg.moderate}",
+          "type": "color"
+        },
+        "soft": {
+          "value": "{colors.fg.moderate}",
+          "type": "color"
+        },
+        "transparent": {
+          "value": "{colors.fg.moderate}",
+          "type": "color"
+        }
+      },
+      "itemSpacing": {
+        "md": {
+          "value": "{spacing.1}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        }
+      },
+      "fontFamilies": {
+        "value": "{fontFamily.sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "lg": {
+          "value": "{fontWeight.semibold}",
+          "type": "fontWeights"
+        },
+        "md": {
+          "value": "{fontWeight.regular}",
+          "type": "fontWeights"
+        }
+      },
+      "fontSizes": {
+        "base": {
+          "value": "{fontSize.base}",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "{fontSize.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "lineHeight": {
+        "md": {
+          "value": "{lineHeight.5}",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "{lineHeight.6}",
+          "type": "lineHeights"
+        }
+      }
+    }
+  },
   "component.chip": {
     "chip": {
       "padding": {
