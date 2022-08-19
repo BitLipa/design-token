@@ -902,6 +902,50 @@
       }
     }
   },
+  "component.tabbar": {
+    "tabbar": {
+      "padding": {
+        "sm": {
+          "value": "{spacing.2}",
+          "type": "spacing",
+          "description": "with  prefix/suffix"
+        },
+        "md": {
+          "value": "{spacing.4}",
+          "type": "spacing",
+          "description": "used with prefix/suffix"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "height": {
+        "md": {
+          "value": "{size.10}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{size.12}",
+          "type": "sizing"
+        }
+      },
+      "itemSpacing": {
+        "md": {
+          "value": "{spacing.1}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
+        "xl": {
+          "value": "{spacing.12}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -913,7 +957,8 @@
       "component.avatar",
       "component.button",
       "component.list",
-      "component.chip"
+      "component.chip",
+      "component.tabbar"
     ]
   }
 }
