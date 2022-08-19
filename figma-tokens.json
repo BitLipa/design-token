@@ -946,6 +946,71 @@
       }
     }
   },
+  "component.bottomsheet": {
+    "bottomSheet": {
+      "padding": {
+        "sm": {
+          "value": "{spacing.2}",
+          "type": "spacing",
+          "description": "with  prefix/suffix"
+        },
+        "md": {
+          "value": "{spacing.4}",
+          "type": "spacing",
+          "description": "used with prefix/suffix"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "md": {
+          "type": "spacing",
+          "description": "with prefix /suffix",
+          "value": "{spacing.4}"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "borderRadius": {
+        "md": {
+          "value": "{borderRadii.2}",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "{borderRadii.3}",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "{borderRadii.full}",
+          "type": "borderRadius"
+        }
+      },
+      "itemSpacing": {
+        "md": {
+          "value": "{spacing.1}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        }
+      },
+      "lineHeight": {
+        "md": {
+          "value": "{lineHeight.5}",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "{lineHeight.6}",
+          "type": "lineHeights"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -958,7 +1023,8 @@
       "component.button",
       "component.list",
       "component.chip",
-      "component.tabbar"
+      "component.tabbar",
+      "component.bottomsheet"
     ]
   }
 }
