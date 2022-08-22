@@ -1,0 +1,52 @@
+{
+  "tabbar": {
+    "padding": {
+      "sm": {
+        "value": "{spacing.2}",
+        "type": "spacing",
+        "description": "with  prefix/suffix",
+        "rawValue": "{spacing.2}"
+      },
+      "md": {
+        "value": "{spacing.4}",
+        "type": "spacing",
+        "description": "used with prefix/suffix",
+        "rawValue": "{spacing.4}"
+      },
+      "lg": {
+        "value": "{spacing.5}",
+        "type": "spacing",
+        "rawValue": "{spacing.5}"
+      }
+    },
+    "height": {
+      "md": {
+        "value": "{size.10}",
+        "type": "sizing",
+        "rawValue": "{size.10}"
+      },
+      "lg": {
+        "value": "{size.12}",
+        "type": "sizing",
+        "rawValue": "{size.12}"
+      }
+    },
+    "itemSpacing": {
+      "md": {
+        "value": "{spacing.1}",
+        "type": "spacing",
+        "rawValue": "{spacing.1}"
+      },
+      "lg": {
+        "value": "{spacing.2}",
+        "type": "spacing",
+        "rawValue": "{spacing.2}"
+      },
+      "xl": {
+        "value": "{spacing.12}",
+        "type": "spacing",
+        "rawValue": "{spacing.12}"
+      }
+    }
+  }
+}

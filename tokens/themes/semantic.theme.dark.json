@@ -3,59 +3,63 @@
     "fg": {
       "subtle": {
         "value": "#77716D",
-        "type": "colors"
+        "type": "color"
       },
       "muted": {
         "value": "#97928E",
-        "type": "colors"
+        "type": "color"
       },
       "quite": {
         "value": "#A7A29E",
-        "type": "colors"
+        "type": "color"
       },
       "moderate": {
         "value": "#D6D3D1",
-        "type": "colors"
+        "type": "color"
       },
       "strong": {
         "value": "#F2F2F1",
-        "type": "colors"
+        "type": "color"
       },
       "onSolid": {
         "value": "#312E2C",
-        "type": "colors"
+        "type": "color"
+      },
+      "transparent": {
+        "value": "transparent",
+        "type": "color"
       }
     },
     "bg": {
       "surface": {
         "value": "#0C0B0B",
-        "type": "colors"
+        "type": "color"
       },
       "subtle": {
         "value": "#312E2C",
-        "type": "colors"
+        "type": "color"
       },
       "muted": {
         "value": "#97928E",
-        "type": "colors"
+        "type": "color"
       },
       "solid": {
         "value": "#FAFAF9",
-        "type": "colors"
+        "type": "color"
       }
     },
     "line": {
       "ghost": {
         "value": "#0C0B0B",
-        "type": "colors"
+        "type": "color"
       },
       "subtle": {
         "value": "#312E2C",
-        "type": "colors"
+        "type": "color"
       },
       "solid": {
         "value": "#56534F",
-        "type": "colors"
+        "type": "color"
       }
     }
   }

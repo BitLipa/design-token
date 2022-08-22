@@ -2,33 +2,28 @@
   "avatar": {
     "xs": {
       "size": {
-        "value": "{size.element.xs}",
+        "value": "{size.6}",
         "type": "sizing",
-        "rawValue": "{size.element.xs}"
+        "rawValue": "{size.6}"
       }
-    },
-    "bg": {
-      "value": "{colors.bg.surface}",
-      "type": "colors",
-      "rawValue": "{colors.bg.surface}"
     },
     "md": {
       "size": {
-        "value": "{size.element.lg}",
+        "value": "{size.12}",
         "type": "sizing",
-        "rawValue": "{size.element.lg}"
+        "rawValue": "{size.12}"
       }
     },
     "shape": {
       "circle": {
         "value": "{borderRadii.full}",
-        "type": "borderRadii",
+        "type": "borderRadius",
         "rawValue": "{borderRadii.full}"
       },
       "rounded": {
-        "value": "{element.borderRadii.md}",
-        "type": "borderRadii",
-        "rawValue": "{element.borderRadii.md}"
+        "value": "{borderRadii.3}",
+        "type": "borderRadius",
+        "rawValue": "{borderRadii.3}"
       }
     }
   }

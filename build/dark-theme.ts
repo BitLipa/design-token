@@ -6,6 +6,7 @@ export default {
     fgModerate: "#D6D3D1",
     fgStrong: "#F2F2F1",
     fgOnSolid: "#312E2C",
+    fgTransparent: "transparent",
     bgSurface: "#0C0B0B",
     bgSubtle: "#312E2C",
     bgMuted: "#97928E",
