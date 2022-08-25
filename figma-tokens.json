@@ -1011,6 +1011,64 @@
       }
     }
   },
+  "component.topBar": {
+    "topBar": {
+      "lineHeight": {
+        "md": {
+          "value": "{lineHeight.6}",
+          "type": "lineHeights"
+        }
+      },
+      "height": {
+        "md": {
+          "value": "{size.11}",
+          "type": "sizing"
+        }
+      },
+      "padding": {
+        "sm": {
+          "value": "{spacing.2}",
+          "type": "spacing"
+        },
+        "md": {
+          "value": "{spacing.3}",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "{spacing.5}",
+          "type": "spacing"
+        }
+      },
+      "fontWeight": {
+        "sm": {
+          "value": "{fontWeight.light}",
+          "type": "fontWeights"
+        },
+        "md": {
+          "value": "{fontWeight.regular}",
+          "type": "fontWeights"
+        },
+        "lg": {
+          "value": "{fontWeight.semibold}",
+          "type": "fontWeights"
+        },
+        "xl": {
+          "value": "{fontWeight.bold}",
+          "type": "fontWeights"
+        }
+      },
+      "fontSize": {
+        "md": {
+          "value": "{fontSize.base}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "{fontSize.lg}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -1024,7 +1082,8 @@
       "component.list",
       "component.chip",
       "component.tabbar",
-      "component.bottomSheet"
+      "component.bottomSheet",
+      "component.topBar"
     ]
   }
 }
