@@ -130,11 +130,11 @@
     },
     "letterSpacing": {
       "xs": {
-        "value": "-4%",
+        "value": "-4",
         "type": "letterSpacing"
       },
       "sm": {
-        "value": "-2%",
+        "value": "-2",
         "type": "letterSpacing"
       },
       "normal": {
@@ -142,11 +142,11 @@
         "type": "letterSpacing"
       },
       "lg": {
-        "value": "2%",
+        "value": "2",
         "type": "letterSpacing"
       },
       "xl": {
-        "value": "4%",
+        "value": "4",
         "type": "letterSpacing"
       }
     },
