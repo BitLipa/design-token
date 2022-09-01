@@ -28,7 +28,11 @@ styleDictionary
             filterBy: (token) => {
               return (
                 themes.every((theme) => theme !== token.attributes.category) &&
-                components.every((comp) => comp !== token.attributes.category)
+                components.every(
+                  (comp) =>
+                    comp?.toLowerCase() !==
+                    token.attributes.category?.toLowerCase()
+                )
               );
             },
           },
@@ -39,7 +43,9 @@ styleDictionary
               options: {
                 outputReferences: true,
               },
-              filterBy: (token) => token.attributes.category === comp,
+              filterBy: (token) =>
+                token.attributes.category?.toLowerCase() ===
+                comp?.toLowerCase(),
             };
           }),
         ],

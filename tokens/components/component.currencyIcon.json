@@ -2,16 +2,16 @@
   "currencyIcon": {
     "xs": {
       "size": {
-        "value": "{size.element.3xs}",
+        "value": "{size.4}",
         "type": "sizing",
-        "rawValue": "{size.element.3xs}"
+        "rawValue": "{size.4}"
       }
     },
     "md": {
       "size": {
-        "value": "{size.element.sm}",
+        "value": "{size.6}",
         "type": "sizing",
-        "rawValue": "{size.element.sm}"
+        "rawValue": "{size.6}"
       }
     }
   }

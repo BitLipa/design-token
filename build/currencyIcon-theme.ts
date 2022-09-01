@@ -3,6 +3,6 @@ export default {
     size: 16,
   },
   md: {
-    size: 32,
+    size: 24,
   },
 };

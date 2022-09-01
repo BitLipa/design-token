@@ -1,65 +1,69 @@
 {
   "colors": {
     "neutral": {
+      "0": {
+        "value": "transparent",
+        "type": "color"
+      },
       "10": {
         "value": "#ffffff",
-        "type": "colors"
+        "type": "color"
       },
       "20": {
         "value": "#FAFAF9",
-        "type": "colors"
+        "type": "color"
       },
       "30": {
         "value": "#F5F5F4",
-        "type": "colors"
+        "type": "color"
       },
       "40": {
         "value": "#F2F2F1",
-        "type": "colors"
+        "type": "color"
       },
       "50": {
         "value": "#E7E5E4",
-        "type": "colors"
+        "type": "color"
       },
       "60": {
         "value": "#D6D3D1",
-        "type": "colors"
+        "type": "color"
       },
       "70": {
         "value": "#A7A29E",
-        "type": "colors"
+        "type": "color"
       },
       "80": {
         "value": "#97928E",
-        "type": "colors"
+        "type": "color"
       },
       "90": {
         "value": "#77716D",
-        "type": "colors"
+        "type": "color"
       },
       "100": {
         "value": "#56534F",
-        "type": "colors"
+        "type": "color"
       },
       "110": {
         "value": "#43403C",
-        "type": "colors"
+        "type": "color"
       },
       "120": {
         "value": "#312E2C",
-        "type": "colors"
+        "type": "color"
       },
       "130": {
         "value": "#1B1917",
-        "type": "colors"
+        "type": "color"
       },
       "140": {
         "value": "#0C0B0B",
-        "type": "colors"
+        "type": "color"
       },
       "150": {
         "value": "#000000",
-        "type": "colors"
+        "type": "color"
       }
     }
   },
@@ -125,11 +129,11 @@
   },
   "letterSpacing": {
     "xs": {
-      "value": "-4%",
+      "value": -4,
       "type": "letterSpacing"
     },
     "sm": {
-      "value": "-2%",
+      "value": -2,
       "type": "letterSpacing"
     },
     "normal": {
@@ -137,11 +141,11 @@
       "type": "letterSpacing"
     },
     "lg": {
-      "value": "2%",
+      "value": 2,
       "type": "letterSpacing"
     },
     "xl": {
-      "value": "4%",
+      "value": 4,
       "type": "letterSpacing"
     }
   },
@@ -343,6 +347,36 @@
     "full": {
       "value": 9999,
       "type": "borderRadii"
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "value": 12,
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": 14,
+      "type": "fontSizes"
+    },
+    "base": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": 18,
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": 20,
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": 28,
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": 44,
+      "type": "fontSizes"
     }
   }
 }

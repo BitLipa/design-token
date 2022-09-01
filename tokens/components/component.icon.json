@@ -2,9 +2,9 @@
   "icon": {
     "xs": {
       "size": {
-        "value": "{size.element.3xs}",
+        "value": "{size.4}",
         "type": "sizing",
-        "rawValue": "{size.element.3xs}"
+        "rawValue": "{size.4}"
       },
       "stroke": {
         "value": "{stroke.sm}",
@@ -14,9 +14,9 @@
     },
     "md": {
       "size": {
-        "value": "{size.element.xs}",
+        "value": "{size.6}",
         "type": "sizing",
-        "rawValue": "{size.element.xs}"
+        "rawValue": "{size.6}"
       },
       "stroke": {
         "value": "{stroke.md}",
